@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const AddCategory = ({setCategories}) => {
 
-    const [inputValue, setInputValue] = useState('Add Category'); //undefined da error
+    const [inputValue, setInputValue] = useState(''); //undefined da error
 
     const handleInputChange = (e)=>{
         setInputValue(e.target.value);
