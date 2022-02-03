@@ -24,8 +24,8 @@ const AddCategory = ({setCategories}) => {
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"
-                    // value={inputValue}
-                    // defaultValue={inputValue}
+                    value={inputValue}
+                    defaultValue={inputValue}
                     placeholder="Add Category"
                     onChange={handleInputChange}
                 />
