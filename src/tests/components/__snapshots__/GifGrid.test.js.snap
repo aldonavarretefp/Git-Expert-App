@@ -1,10 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en <GifGrid /> debe mostrar <GifGrid/> correctamente 1`] = `
+exports[`Pruebas en <GifGrid /> Debe mostrar items cuando se cargan imagenes useFetchGifs 1`] = `
 <Fragment>
   <h2
     className="animate__animated animate__zoomInUp"
-  />
+  >
+    One Punch
+  </h2>
+  <h2
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </h2>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="One Punch"
+      url="https://media1.giphy.com/media/l0MYBQzZzQZbzmq5K/giphy.gif"
+    />
+    <GifGridItem
+      id="A3A"
+      key="A3A"
+      title="Veggeta"
+      url="https://media1.giphy.com/media/l0MYBQzZzQZbzmq5K/giphy.gif"
+    />
+    <GifGridItem
+      id="A3B"
+      key="A3B"
+      title="Veggeta"
+      url="https://media1.giphy.com/media/l0MYBQzZzQZbzmq5K/giphy.gif"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en <GifGrid /> Debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__zoomInUp"
+  >
+    One Punch
+  </h2>
   <h2
     className="animate__animated animate__flash"
   >
